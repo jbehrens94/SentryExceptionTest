@@ -1,0 +1,24 @@
+PODS:
+  - Sentry (7.9.0):
+    - Sentry/Core (= 7.9.0)
+  - Sentry/Core (7.9.0)
+
+DEPENDENCIES:
+  - "Sentry (from `git@github.com:getsentry/sentry-cocoa.git`, tag `7.9.0`)"
+
+EXTERNAL SOURCES:
+  Sentry:
+    :git: "git@github.com:getsentry/sentry-cocoa.git"
+    :tag: 7.9.0
+
+CHECKOUT OPTIONS:
+  Sentry:
+    :git: "git@github.com:getsentry/sentry-cocoa.git"
+    :tag: 7.9.0
+
+SPEC CHECKSUMS:
+  Sentry: 2f7e91f247cfb05b05bd01e0b5d0692557a7687b
+
+PODFILE CHECKSUM: a621995db92148df6941b63f29498c389717caf6
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+framework module Pods_SentryFileProviderTestUI {
+  umbrella header "Pods-SentryFileProviderTestUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

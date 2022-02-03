@@ -13,9 +13,53 @@
 		705ED91B27AC5F1A00A087BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705ED91927AC5F1A00A087BB /* Main.storyboard */; };
 		705ED91D27AC5F1B00A087BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705ED91C27AC5F1B00A087BB /* Assets.xcassets */; };
 		705ED92027AC5F1B00A087BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705ED91E27AC5F1B00A087BB /* LaunchScreen.storyboard */; };
+		705ED92E27AC5F3600A087BB /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705ED92D27AC5F3600A087BB /* UniformTypeIdentifiers.framework */; };
+		705ED93127AC5F3600A087BB /* FileProviderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705ED93027AC5F3600A087BB /* FileProviderExtension.swift */; };
+		705ED93327AC5F3600A087BB /* FileProviderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705ED93227AC5F3600A087BB /* FileProviderItem.swift */; };
+		705ED93527AC5F3600A087BB /* FileProviderEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705ED93427AC5F3600A087BB /* FileProviderEnumerator.swift */; };
+		705ED93F27AC5F3700A087BB /* DocumentActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705ED93E27AC5F3700A087BB /* DocumentActionViewController.swift */; };
+		705ED94227AC5F3700A087BB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705ED94027AC5F3700A087BB /* MainInterface.storyboard */; };
+		705ED94627AC5F3700A087BB /* SentryFileProviderTestUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 705ED93C27AC5F3700A087BB /* SentryFileProviderTestUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		705ED94927AC5F3700A087BB /* SentryFileProviderTest.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 705ED92B27AC5F3600A087BB /* SentryFileProviderTest.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7B642A3719AEC734243A4AA0 /* Pods_SentryFileProviderTestUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D179A34F29578BBB7358EB20 /* Pods_SentryFileProviderTestUI.framework */; };
+		7F4E28D1D5BE922A40E8B870 /* Pods_SentryFileProviderTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E80B7A73C888E8C85CA2DD /* Pods_SentryFileProviderTest.framework */; };
+		E8C7E4403D78E2337034CE7D /* Pods_SentryExtensionTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56EEFF7A481F3618E2C386F /* Pods_SentryExtensionTest.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		705ED94427AC5F3700A087BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 705ED90827AC5F1A00A087BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 705ED93B27AC5F3700A087BB;
+			remoteInfo = SentryFileProviderTestUI;
+		};
+		705ED94727AC5F3700A087BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 705ED90827AC5F1A00A087BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 705ED92A27AC5F3600A087BB;
+			remoteInfo = SentryFileProviderTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		705ED95027AC5F3700A087BB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				705ED94927AC5F3700A087BB /* SentryFileProviderTest.appex in Embed App Extensions */,
+				705ED94627AC5F3700A087BB /* SentryFileProviderTestUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		417BFE23A8D000DB6060D58C /* Pods-SentryFileProviderTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentryFileProviderTest.debug.xcconfig"; path = "Target Support Files/Pods-SentryFileProviderTest/Pods-SentryFileProviderTest.debug.xcconfig"; sourceTree = "<group>"; };
 		705ED91027AC5F1A00A087BB /* SentryExtensionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentryExtensionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		705ED91327AC5F1A00A087BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		705ED91527AC5F1A00A087BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +68,25 @@
 		705ED91C27AC5F1B00A087BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		705ED91F27AC5F1B00A087BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		705ED92127AC5F1B00A087BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705ED92B27AC5F3600A087BB /* SentryFileProviderTest.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SentryFileProviderTest.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		705ED92D27AC5F3600A087BB /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		705ED93027AC5F3600A087BB /* FileProviderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderExtension.swift; sourceTree = "<group>"; };
+		705ED93227AC5F3600A087BB /* FileProviderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderItem.swift; sourceTree = "<group>"; };
+		705ED93427AC5F3600A087BB /* FileProviderEnumerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderEnumerator.swift; sourceTree = "<group>"; };
+		705ED93627AC5F3600A087BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705ED93727AC5F3600A087BB /* SentryFileProviderTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SentryFileProviderTest.entitlements; sourceTree = "<group>"; };
+		705ED93C27AC5F3700A087BB /* SentryFileProviderTestUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SentryFileProviderTestUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		705ED93E27AC5F3700A087BB /* DocumentActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentActionViewController.swift; sourceTree = "<group>"; };
+		705ED94127AC5F3700A087BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		705ED94327AC5F3700A087BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA5DA3B8ACF1B5A2466BC54 /* Pods-SentryFileProviderTestUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentryFileProviderTestUI.debug.xcconfig"; path = "Target Support Files/Pods-SentryFileProviderTestUI/Pods-SentryFileProviderTestUI.debug.xcconfig"; sourceTree = "<group>"; };
+		86898A29C447B9578DBC5812 /* Pods-SentryExtensionTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentryExtensionTest.release.xcconfig"; path = "Target Support Files/Pods-SentryExtensionTest/Pods-SentryExtensionTest.release.xcconfig"; sourceTree = "<group>"; };
+		9DDE38BFC4F64469BE4C5DC6 /* Pods-SentryFileProviderTestUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentryFileProviderTestUI.release.xcconfig"; path = "Target Support Files/Pods-SentryFileProviderTestUI/Pods-SentryFileProviderTestUI.release.xcconfig"; sourceTree = "<group>"; };
+		A4E80B7A73C888E8C85CA2DD /* Pods_SentryFileProviderTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SentryFileProviderTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56EEFF7A481F3618E2C386F /* Pods_SentryExtensionTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SentryExtensionTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C993FB81DA0305675DCF225A /* Pods-SentryExtensionTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentryExtensionTest.debug.xcconfig"; path = "Target Support Files/Pods-SentryExtensionTest/Pods-SentryExtensionTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D179A34F29578BBB7358EB20 /* Pods_SentryFileProviderTestUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SentryFileProviderTestUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEFED92F5FF1126C20B523F /* Pods-SentryFileProviderTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentryFileProviderTest.release.xcconfig"; path = "Target Support Files/Pods-SentryFileProviderTest/Pods-SentryFileProviderTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +94,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C7E4403D78E2337034CE7D /* Pods_SentryExtensionTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705ED92827AC5F3600A087BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705ED92E27AC5F3600A087BB /* UniformTypeIdentifiers.framework in Frameworks */,
+				7F4E28D1D5BE922A40E8B870 /* Pods_SentryFileProviderTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705ED93927AC5F3700A087BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B642A3719AEC734243A4AA0 /* Pods_SentryFileProviderTestUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +122,11 @@
 			isa = PBXGroup;
 			children = (
 				705ED91227AC5F1A00A087BB /* SentryExtensionTest */,
+				705ED92F27AC5F3600A087BB /* SentryFileProviderTest */,
+				705ED93D27AC5F3700A087BB /* SentryFileProviderTestUI */,
+				705ED92C27AC5F3600A087BB /* Frameworks */,
 				705ED91127AC5F1A00A087BB /* Products */,
+				9BA84FD444D54977BEB9A344 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				705ED91027AC5F1A00A087BB /* SentryExtensionTest.app */,
+				705ED92B27AC5F3600A087BB /* SentryFileProviderTest.appex */,
+				705ED93C27AC5F3700A087BB /* SentryFileProviderTestUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +154,53 @@
 			path = SentryExtensionTest;
 			sourceTree = "<group>";
 		};
+		705ED92C27AC5F3600A087BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				705ED92D27AC5F3600A087BB /* UniformTypeIdentifiers.framework */,
+				C56EEFF7A481F3618E2C386F /* Pods_SentryExtensionTest.framework */,
+				A4E80B7A73C888E8C85CA2DD /* Pods_SentryFileProviderTest.framework */,
+				D179A34F29578BBB7358EB20 /* Pods_SentryFileProviderTestUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		705ED92F27AC5F3600A087BB /* SentryFileProviderTest */ = {
+			isa = PBXGroup;
+			children = (
+				705ED93027AC5F3600A087BB /* FileProviderExtension.swift */,
+				705ED93227AC5F3600A087BB /* FileProviderItem.swift */,
+				705ED93427AC5F3600A087BB /* FileProviderEnumerator.swift */,
+				705ED93627AC5F3600A087BB /* Info.plist */,
+				705ED93727AC5F3600A087BB /* SentryFileProviderTest.entitlements */,
+			);
+			path = SentryFileProviderTest;
+			sourceTree = "<group>";
+		};
+		705ED93D27AC5F3700A087BB /* SentryFileProviderTestUI */ = {
+			isa = PBXGroup;
+			children = (
+				705ED93E27AC5F3700A087BB /* DocumentActionViewController.swift */,
+				705ED94027AC5F3700A087BB /* MainInterface.storyboard */,
+				705ED94327AC5F3700A087BB /* Info.plist */,
+			);
+			path = SentryFileProviderTestUI;
+			sourceTree = "<group>";
+		};
+		9BA84FD444D54977BEB9A344 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C993FB81DA0305675DCF225A /* Pods-SentryExtensionTest.debug.xcconfig */,
+				86898A29C447B9578DBC5812 /* Pods-SentryExtensionTest.release.xcconfig */,
+				417BFE23A8D000DB6060D58C /* Pods-SentryFileProviderTest.debug.xcconfig */,
+				DEEFED92F5FF1126C20B523F /* Pods-SentryFileProviderTest.release.xcconfig */,
+				7EA5DA3B8ACF1B5A2466BC54 /* Pods-SentryFileProviderTestUI.debug.xcconfig */,
+				9DDE38BFC4F64469BE4C5DC6 /* Pods-SentryFileProviderTestUI.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,18 +208,59 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 705ED92427AC5F1B00A087BB /* Build configuration list for PBXNativeTarget "SentryExtensionTest" */;
 			buildPhases = (
+				A193EE8F5F52EFDC18376E90 /* [CP] Check Pods Manifest.lock */,
 				705ED90C27AC5F1A00A087BB /* Sources */,
 				705ED90D27AC5F1A00A087BB /* Frameworks */,
 				705ED90E27AC5F1A00A087BB /* Resources */,
+				705ED95027AC5F3700A087BB /* Embed App Extensions */,
+				D0D2A77473A327312B6138A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				705ED94527AC5F3700A087BB /* PBXTargetDependency */,
+				705ED94827AC5F3700A087BB /* PBXTargetDependency */,
 			);
 			name = SentryExtensionTest;
 			productName = SentryExtensionTest;
 			productReference = 705ED91027AC5F1A00A087BB /* SentryExtensionTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		705ED92A27AC5F3600A087BB /* SentryFileProviderTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 705ED94D27AC5F3700A087BB /* Build configuration list for PBXNativeTarget "SentryFileProviderTest" */;
+			buildPhases = (
+				8466F482904769D4CCDDD77A /* [CP] Check Pods Manifest.lock */,
+				705ED92727AC5F3600A087BB /* Sources */,
+				705ED92827AC5F3600A087BB /* Frameworks */,
+				705ED92927AC5F3600A087BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SentryFileProviderTest;
+			productName = SentryFileProviderTest;
+			productReference = 705ED92B27AC5F3600A087BB /* SentryFileProviderTest.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		705ED93B27AC5F3700A087BB /* SentryFileProviderTestUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 705ED94A27AC5F3700A087BB /* Build configuration list for PBXNativeTarget "SentryFileProviderTestUI" */;
+			buildPhases = (
+				D4FD0321CED0A1FB8EACC69E /* [CP] Check Pods Manifest.lock */,
+				705ED93827AC5F3700A087BB /* Sources */,
+				705ED93927AC5F3700A087BB /* Frameworks */,
+				705ED93A27AC5F3700A087BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SentryFileProviderTestUI;
+			productName = SentryFileProviderTestUI;
+			productReference = 705ED93C27AC5F3700A087BB /* SentryFileProviderTestUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +273,12 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					705ED90F27AC5F1A00A087BB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					705ED92A27AC5F3600A087BB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					705ED93B27AC5F3700A087BB = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -116,6 +297,8 @@
 			projectRoot = "";
 			targets = (
 				705ED90F27AC5F1A00A087BB /* SentryExtensionTest */,
+				705ED92A27AC5F3600A087BB /* SentryFileProviderTest */,
+				705ED93B27AC5F3700A087BB /* SentryFileProviderTestUI */,
 			);
 		};
 /* End PBXProject section */
@@ -131,7 +314,108 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		705ED92927AC5F3600A087BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705ED93A27AC5F3700A087BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705ED94227AC5F3700A087BB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8466F482904769D4CCDDD77A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SentryFileProviderTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A193EE8F5F52EFDC18376E90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SentryExtensionTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D2A77473A327312B6138A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SentryExtensionTest/Pods-SentryExtensionTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SentryExtensionTest/Pods-SentryExtensionTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SentryExtensionTest/Pods-SentryExtensionTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4FD0321CED0A1FB8EACC69E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SentryFileProviderTestUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		705ED90C27AC5F1A00A087BB /* Sources */ = {
@@ -144,7 +428,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		705ED92727AC5F3600A087BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705ED93127AC5F3600A087BB /* FileProviderExtension.swift in Sources */,
+				705ED93327AC5F3600A087BB /* FileProviderItem.swift in Sources */,
+				705ED93527AC5F3600A087BB /* FileProviderEnumerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705ED93827AC5F3700A087BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705ED93F27AC5F3700A087BB /* DocumentActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		705ED94527AC5F3700A087BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 705ED93B27AC5F3700A087BB /* SentryFileProviderTestUI */;
+			targetProxy = 705ED94427AC5F3700A087BB /* PBXContainerItemProxy */;
+		};
+		705ED94827AC5F3700A087BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 705ED92A27AC5F3600A087BB /* SentryFileProviderTest */;
+			targetProxy = 705ED94727AC5F3700A087BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		705ED91927AC5F1A00A087BB /* Main.storyboard */ = {
@@ -161,6 +476,14 @@
 				705ED91F27AC5F1B00A087BB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		705ED94027AC5F3700A087BB /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				705ED94127AC5F3700A087BB /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,7 +607,9 @@
 		};
 		705ED92527AC5F1B00A087BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C993FB81DA0305675DCF225A /* Pods-SentryExtensionTest.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +637,9 @@
 		};
 		705ED92627AC5F1B00A087BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86898A29C447B9578DBC5812 /* Pods-SentryExtensionTest.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -338,6 +665,112 @@
 			};
 			name = Release;
 		};
+		705ED94B27AC5F3700A087BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA5DA3B8ACF1B5A2466BC54 /* Pods-SentryFileProviderTestUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZX5WDYS536;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SentryFileProviderTestUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SentryFileProviderTestUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.transip.SentryExtensionTest.SentryFileProviderTestUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		705ED94C27AC5F3700A087BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDE38BFC4F64469BE4C5DC6 /* Pods-SentryFileProviderTestUI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZX5WDYS536;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SentryFileProviderTestUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SentryFileProviderTestUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.transip.SentryExtensionTest.SentryFileProviderTestUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		705ED94E27AC5F3700A087BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417BFE23A8D000DB6060D58C /* Pods-SentryFileProviderTest.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SentryFileProviderTest/SentryFileProviderTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZX5WDYS536;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SentryFileProviderTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SentryFileProviderTest;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.transip.SentryExtensionTest.SentryFileProviderTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		705ED94F27AC5F3700A087BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEEFED92F5FF1126C20B523F /* Pods-SentryFileProviderTest.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SentryFileProviderTest/SentryFileProviderTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZX5WDYS536;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SentryFileProviderTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SentryFileProviderTest;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.transip.SentryExtensionTest.SentryFileProviderTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -355,6 +788,24 @@
 			buildConfigurations = (
 				705ED92527AC5F1B00A087BB /* Debug */,
 				705ED92627AC5F1B00A087BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		705ED94A27AC5F3700A087BB /* Build configuration list for PBXNativeTarget "SentryFileProviderTestUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705ED94B27AC5F3700A087BB /* Debug */,
+				705ED94C27AC5F3700A087BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		705ED94D27AC5F3700A087BB /* Build configuration list for PBXNativeTarget "SentryFileProviderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705ED94E27AC5F3700A087BB /* Debug */,
+				705ED94F27AC5F3700A087BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
